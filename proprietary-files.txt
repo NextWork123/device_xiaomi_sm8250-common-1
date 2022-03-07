@@ -79,26 +79,25 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|dfb5d4ce5e2f8b59b1d74f7661
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# CDSP - from Miui 13.0.3.0
-vendor/bin/cdsprpcd|f6d629d575bc76114fab248c5b99a4c5da3fd0db
+# CDSP - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
 vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsp_default_listener.so|7949a156e2fced7a60cb4099cc4ab274c3504d7e
-vendor/lib/libcdsprpc.so|c094e50ec5a62203ad4f4b4421cf737eb8550d29
-vendor/lib/libfastcrc.so|458fd336669a2bd861cf706540a3bba1363e768d
-vendor/lib/libfastcvdsp_stub.so|571929bad29dff06a41a2a6cfb4ef54711957f6c
-vendor/lib/libmdsprpc.so|db60848b36a62028445dbd691f9f10192e078d9f
-vendor/lib/libsdsprpc.so|44ee639c06449a008dd227c8b3cf9162166a15cd
-vendor/lib/libsysmon_cdsp_skel.so|ebefa806ce33f19b4f7975fb246966d6067f9c02
-vendor/lib64/libcdfw.so|6a69750ab8b82eaf1c7734cb2ff202d4dbc377f2
-vendor/lib64/libcdfw_remote_api.so|db561d31045f9ea6e0a62cecba777d9af43902ee
-vendor/lib64/libcdsp_default_listener.so|e6138184ba9247bf0d33703b69ad81181e15001a
-vendor/lib64/libcdsprpc.so|15bb19f9ba5f4dbdc4536880652866fbbef5f969
-vendor/lib64/libfastcvdsp_stub.so|11ea885143a2a85d658c5cb73e14b1b357783672
-vendor/lib64/libmdsprpc.so|f8e551bf893f8ab52f86cb078d1c393877e752f5
-vendor/lib64/libsdsprpc.so|f09392c493fca28efba9ab5a4c1d73911eac65d5
-vendor/lib64/libsysmon_cdsp_skel.so|48e77284297b0a8500e5ae659469c4b9572086f6
--vendor/lib/libfastcvopt.so|82baddfd9638df669e42d901b186ec4bf695618d
--vendor/lib64/libfastcvopt.so|532d6d0362a12a95cbfbd69c648cdb1a3d3c1431
+vendor/lib/libcdsprpc.so|d275546252bb3b9e7b4f17412b420a5831dc67c1
+vendor/lib/libfastcrc.so|9677b12c558025527f5675ff40179715a3125c8c
+vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
+-vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
+vendor/lib/libmdsprpc.so|1505997241737982c8f68939cf8dfd1270dfe533
+vendor/lib/libsdsprpc.so|0c988c3a4954bbdbe438a8f49699581675e3e5cb
+vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
+vendor/lib64/libcdfw.so|879ec0095789187243316666f584c1cdbe44c894
+vendor/lib64/libcdfw_remote_api.so|e43217af385097ea8d939a7c0cc60c3e092ad086
+vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
+vendor/lib64/libcdsprpc.so|2db0529ee345453fd13084727afb4f6ada680ed1
+vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
+-vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
+vendor/lib64/libmdsprpc.so|80f84e5aefc9ca0806347d5c14a513438aa32144
+vendor/lib64/libsdsprpc.so|5fa4c60a5f26fe54a42899b26fdef2477d965276
+vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 
 # Charger (HVDCP) - from Miui 13.0.3.0
 vendor/bin/hvdcp_opti
