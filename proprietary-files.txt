@@ -797,15 +797,6 @@ vendor/lib64/libscveObjectSegmentation_stub.so|f30ce4dd4197732dce83e7df6474794ab
 vendor/lib64/libscveObjectTracker.so|2c9195e1874ba598135ffec0246648e891fc4e3d
 vendor/lib64/libscveObjectTracker_stub.so|62db08e185e915fe975e5234d1ce1d749e6e9750
 
-# Soter - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
-vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|8e315a85eeeb94a51f1533c80212d2fc0ec88760
-vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb7e8ca000e48bd28ae
-vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|b1bea56084e2530a437746674fc7fc0488ca0a2c
-vendor/lib64/vendor.qti.hardware.soter@1.0.so|9e7805fbc289224be834e5523a63421817e32229
-
-# Soter service (Tencent) - from lmi-user 11 RKQ1.200826.002 V12.5.1.0.RJKMIXM release-keys
--vendor/app/SoterService/SoterService.apk|939423f0016034cf8676f64d384aafde308f779b
-
 # Thermal
 vendor/bin/mi_thermald
 vendor/etc/init/init.mi_thermald.rc
