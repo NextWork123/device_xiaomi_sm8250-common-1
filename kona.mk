@@ -85,6 +85,9 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 # Don't preopt prebuilts
 DONT_DEXPREOPT_PREBUILTS := true
 
+# Bootanimation
+TARGET_BOOTANIMATION_HALF_RES := true
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
