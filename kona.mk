@@ -359,10 +359,12 @@ PRODUCT_PACKAGES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm@1.4-service.clearkey \
+    android.hardware.drm@1.4-service.widevine 
 
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4.vendor
+    android.hardware.drm@1.4.vendor \
+    liboemcrypto
 
 # fastbootd
 PRODUCT_PACKAGES += \
@@ -757,14 +759,6 @@ PRODUCT_COPY_FILES += \
 # Google Photos
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/pixel/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
-
-# WiFi Display
-PRODUCT_PACKAGES += \
-    libnl \
-    libwfdaac \
-    libwfdaac_vendor
-
-include vendor/xiaomi/sm8250-common-extra/wfd.mk
 
 # Wlan
 PRODUCT_CFI_INCLUDE_PATHS += \
