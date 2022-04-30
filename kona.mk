@@ -320,6 +320,7 @@ PRODUCT_PACKAGES += \
     extphonelib_product.xml \
     libvulkan \
     memtrack.kona \
+    libsmomo.qti \
     vendor.display.config@1.5 \
     vendor.display.config@1.9 \
     vendor.display.config@1.11 \
