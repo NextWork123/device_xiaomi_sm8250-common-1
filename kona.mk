@@ -508,6 +508,10 @@ PRODUCT_PACKAGES += \
     libcodec2_soft_vp8enc \
     libcodec2_soft_xaacdec
 
+# Mlipay
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.1.vendor
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
